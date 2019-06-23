@@ -1,0 +1,25 @@
+{
+	"name": "@schlagerkhan/errors",
+	"version": "0.0.0",
+	"main": "lib/index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "npx babel src --out-dir lib --extensions '.ts'",
+		"prepare": "yarn build",
+		"deploy": "npm publish"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"extendable-error": "^0.1.5",
+		"is-plain-object": "^3.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-proposal-class-properties": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-typescript": "^7.3.3"
+	}
+}
