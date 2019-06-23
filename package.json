@@ -1,12 +1,16 @@
 {
 	"name": "@schlagerkhan/errors",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"license": "MIT",
 	"main": "lib/index.js",
 	"files": [
 		"src",
 		"lib"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SchlagerKhan/errors"
+	},
 	"scripts": {
 		"build": "npx babel src --out-dir lib --extensions '.ts'",
 		"prepare": "yarn build",
