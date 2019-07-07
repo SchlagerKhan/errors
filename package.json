@@ -12,7 +12,9 @@
 		"url": "https://github.com/SchlagerKhan/errors"
 	},
 	"scripts": {
-		"build": "npx babel src --out-dir lib --extensions '.ts'",
+		"clean": "rm -rf lib",
+		"babel": "npx babel src --out-dir lib --extensions '.ts'",
+		"build": "yarn clean && yarn babel",
 		"prepare": "yarn build",
 		"deploy": "npm publish"
 	},
