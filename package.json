@@ -1,5 +1,6 @@
 {
-	"name": "@schlagerkhan/errors",
+	"private": true,
+	"name": "errors",
 	"version": "0.0.6",
 	"license": "MIT",
 	"main": "lib/index.js",
@@ -7,28 +8,20 @@
 		"src",
 		"lib"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SchlagerKhan/errors"
-	},
-	"scripts": {
-		"clean": "rm -rf lib",
-		"babel": "npx babel src --out-dir lib --extensions '.ts'",
-		"build": "yarn clean && yarn babel",
-		"prepare": "yarn build"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"dependencies": {
-		"extendable-error": "^0.1.5",
-		"is-plain-object": "^3.0.0"
-	},
+	"workspaces": [
+		"packages/*"
+	],
+	"prettier": "@schlagerkhan/prettier-config",
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
 		"@babel/core": "^7.4.5",
 		"@babel/plugin-proposal-class-properties": "^7.4.4",
 		"@babel/preset-env": "^7.4.5",
-		"@babel/preset-typescript": "^7.3.3"
+		"@babel/preset-typescript": "^7.3.3",
+		"@schlagerkhan/eslint-fuckit-ts": "^0.2.11",
+		"@schlagerkhan/prettier-config": "^0.0.1",
+		"lerna": "^3.16.4",
+		"prettier": "^1.18.2",
+		"typescript": "^3.5.3"
 	}
 }

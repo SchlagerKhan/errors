@@ -1,4 +1,4 @@
-import { GenericError } from './generic';
+import { GenericError } from '@schlagerkhan/generic-error';
 
 export { GenericError };
 
@@ -19,5 +19,3 @@ export class UnauthorizedError extends AuthError {}
 
 /* OTHER */
 export class UnknownError extends GenericError {}
-
-// TODO: Refactor to monorepo and add generic-error as separate package

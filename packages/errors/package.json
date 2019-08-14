@@ -1,0 +1,26 @@
+{
+	"name": "@schlagerkhan/errors",
+	"version": "0.0.6",
+	"license": "MIT",
+	"main": "lib/index.js",
+	"files": [
+		"src",
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SchlagerKhan/errors"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"clean": "rm -rf lib",
+		"babel": "npx babel src --out-dir lib --extensions '.ts'",
+		"build": "yarn clean && yarn babel",
+		"prepare": "yarn build"
+	},
+	"dependencies": {
+		"@schlagerkhan/generic-error": "^0.0.1"
+	}
+}
