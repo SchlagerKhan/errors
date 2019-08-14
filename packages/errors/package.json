@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/errors",
-	"version": "0.0.6",
+	"version": "0.1.0",
 	"license": "MIT",
 	"main": "lib/index.js",
 	"files": [
@@ -21,6 +21,6 @@
 		"prepare": "yarn build"
 	},
 	"dependencies": {
-		"@schlagerkhan/generic-error": "^0.0.1"
+		"@schlagerkhan/generic-error": "^0.1.0"
 	}
 }
