@@ -20,11 +20,13 @@ export class GenericError extends ExtendableError {
 
 	childError: Error;
 
-	toString = toString.bind(this);
+	has = has.bind(this);
 
-	getChildErrorObject = getChildErrorObject.bind(this);
+	toString = toString.bind(this);
 
 	toObject = toObject.bind(this);
 
-	has = has.bind(this);
+	getChildErrorObject = getChildErrorObject.bind(this);
 }
+
+// TODO: Add parse function

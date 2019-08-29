@@ -58,10 +58,7 @@ export function toString(): string {
 export function getChildErrorObject(): ChildErrorObject {
 	const err = this.childError;
 
-	// prettier-ignore
-	return err 
-		? err.toObject() 
-		: undefined;
+	return err ? err.toObject() : undefined;
 }
 
 Error.prototype.toObject = toObject;

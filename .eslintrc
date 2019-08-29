@@ -1,3 +1,6 @@
 {
-	"extends": "@schlagerkhan/eslint-config-ts"
+	"extends": "@schlagerkhan/eslint-config-ts",
+	"rules": {
+		"no-extend-native": 0
+	}
 }
