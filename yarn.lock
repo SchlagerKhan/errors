@@ -1057,10 +1057,10 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extendable-error@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/extendable-error/-/extendable-error-0.1.5.tgz#122308a7097bc89a263b2c4fbf089c78140e3b6d"
-  integrity sha1-EiMIpwl7yJomOyxPvwiceBQOO20=
+extendable-error@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/extendable-error/-/extendable-error-0.1.6.tgz#60e528d9ca5d19ff4f6ac77a8561f9c7bc951327"
+  integrity sha512-J4t/QOPpq9uS7NYpgBGoezXwm4l0ojnL6gt0kBdD9CHN4CmQ3zSs/GD2u0j4PpZvU/ALohs8dyhmxMPQjmTO3w==
 
 extglob@^2.0.4:
   version "2.0.4"
