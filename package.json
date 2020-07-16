@@ -21,7 +21,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"extendable-error": "^0.1.5",
+		"extendable-error": "^0.1.7",
 		"is-plain-object": "^3.0.0"
 	},
 	"devDependencies": {
